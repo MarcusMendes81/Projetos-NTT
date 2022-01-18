@@ -1,7 +1,6 @@
 package one.dio.digionebank
 
 
-
 fun main(){
    val cliente = Pessoa()
 
@@ -15,5 +14,7 @@ fun main(){
     // classe data
     val bank = Banco("DigiOneBank",12)
     println(bank.Info())
+
+
 
 }
