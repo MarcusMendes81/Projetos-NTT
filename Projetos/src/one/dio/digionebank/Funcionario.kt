@@ -1,11 +1,11 @@
 package one.dio.digionebank
 
-import java.math.BigDecimal
+
 
 abstract class Funcionario (
     nome:String,
     cpf:String,
-    val salario: BigDecimal
+    val salario: Double
         ):Pessoa(nome, cpf) {
-            abstract fun CalculoAux()
+           protected abstract fun CalculoAux():Double
         }
